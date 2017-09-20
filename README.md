@@ -41,10 +41,15 @@ Pos     A       T       G       C       Total
 This tool does a virtual PCR using a fasta file of primers sequences and a fasta file of sequences to test. User need to provide maximal amplicon length and the number of 5' nucleotides that need to be clipped.
 
 Use guide:
+
 perl ePCR_v2.pl MAXLENGTH CLIP GENOMES PRIMERS
+
 perl ePCR_v2.pl 2000 0 MyGenomes.fasta Primer.fasta 
 
 MAXLENGTH : Maximum length of the putative amplicon. User can give big number if long amplicon is expected.
+
 CLIP : The number of bases that should be clipped in 5' of the primers. This allows to tune specificity of the virtual PCR. Use 0 if you want no clipping.
+
 GENOMES : Name of the genome fasta file.
+
 PRIMERS : Name of the primers fasta file.
