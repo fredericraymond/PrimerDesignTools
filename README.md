@@ -53,3 +53,17 @@ CLIP : The number of bases that should be clipped in 5' of the primers. This all
 GENOMES : Name of the genome fasta file.
 
 PRIMERS : Name of the primers fasta file.
+
+Example output :
+```
+Target  First primer    Second primer   Amplicon Length
+>KU296386.1 UNVERIFIED: Zaire ebolavirus isolate Ebola virus/H.sapiens-wt/SLE/2015/Makona-2507_C1_77767_EMLK, partial genome    region_4-13_F   region_5-17_F   1859
+>KU296386.1 UNVERIFIED: Zaire ebolavirus isolate Ebola virus/H.sapiens-wt/SLE/2015/Makona-2507_C1_77767_EMLK, partial genome    region_4-13_F   region_4-16_R-rev       1890
+>KU296386.1 UNVERIFIED: Zaire ebolavirus isolate Ebola virus/H.sapiens-wt/SLE/2015/Makona-2507_C1_77767_EMLK, partial genome    region_4-13_F   region_9-17_F   1859
+>KU296386.1 UNVERIFIED: Zaire ebolavirus isolate Ebola virus/H.sapiens-wt/SLE/2015/Makona-2507_C1_77767_EMLK, partial genome    region_4-13_F   region_8-16_R-rev       1890
+>KU296386.1 UNVERIFIED: Zaire ebolavirus isolate Ebola virus/H.sapiens-wt/SLE/2015/Makona-2507_C1_77767_EMLK, partial genome    region_4-13_F   region_7-14_R-rev       930
+>KU296386.1 UNVERIFIED: Zaire ebolavirus isolate Ebola virus/H.sapiens-wt/SLE/2015/Makona-2507_C1_77767_EMLK, partial genome    region_4-13_F   region_8-15_F   918
+>KU296386.1 UNVERIFIED: Zaire ebolavirus isolate Ebola virus/H.sapiens-wt/SLE/2015/Makona-2507_C1_77767_EMLK, partial genome    region_5-17_F   region_4-16_R-rev       50
+>KU296386.1 UNVERIFIED: Zaire ebolavirus isolate Ebola virus/H.sapiens-wt/SLE/2015/Makona-2507_C1_77767_EMLK, partial genome    region_5-17_F   region_10-19_F  979
+>KU296386.1 UNVERIFIED: Zaire ebolavirus isolate Ebola virus/H.sapiens-wt/SLE/2015/Makona-2507_C1_77767_EMLK, partial genome    region_5-17_F   region_6-20_F   1971
+```
