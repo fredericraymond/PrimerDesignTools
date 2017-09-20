@@ -17,7 +17,7 @@ Use guide:
 perl conserved_region_finder-percent.pl Alignment.fasta
 
 Output example :
-'''
+```
 Pos     A       T       G       C       Total
 1       1       0       0       0       51
 2       0       0       1       0       51
@@ -35,7 +35,7 @@ Pos     A       T       G       C       Total
 14      1       0       0       0       51
 15      0       1       0       0       51
 16      0       0.980392156862745       0       0.0196078431372549      51
-'''
+```
 
 # ePCR_v2.pl
 This tool does a virtual PCR using a fasta file of primers sequences and a fasta file of sequences to test. User need to provide maximal amplicon length and the number of 5' nucleotides that need to be clipped.
